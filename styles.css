@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background: #222;
+  color: #fff;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav a {
+  color: #fff;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+header nav a.active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.hero {
+  padding: 80px 20px;
+  text-align: center;
+  background: #fff;
+}
+
+.hero .btn {
+  padding: 10px 20px;
+  display: inline-block;
+  background: #333;
+  color: #fff;
+  margin-top: 20px;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+.products {
+  padding: 30px;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.product-card {
+  background: #fff;
+  padding: 15px;
+  border-radius: 6px;
+  text-align: center;
+}
+
